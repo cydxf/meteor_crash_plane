@@ -334,7 +334,7 @@ https://www.bilibili.com/video/BV1xy4y1m794/.
 ![](README_res/MainScene.png)
 
 #### Ⅲ.游戏运行画面
-![](README_res/play_game.gif)
+![](README_res/play_game.png)
 
 
 
