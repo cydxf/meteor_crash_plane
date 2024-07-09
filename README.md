@@ -240,7 +240,7 @@ public:
 ```
 ②加入爆炸资源数组：将爆炸不同阶段的资源图片用数组载入。  
 ③实现爆炸动画：爆炸动画是由多张爆炸图片连续播放实现的，所以爆炸图片的路径在配置时要写为%1，代表路径可变。设置好爆炸切图的时间间隔，并在播放时实时更新爆炸图片路径，在mainscene::paintEvent函数中追加绘制爆炸的代码，最终实现爆炸动画。  
-![](README_res\bomb1.png)![](README_res\bomb2.png)![](README_res\bomb3.png)![](README_res\bomb4.png)![](README_res\bomb5.png)
+![](README_res/bomb1.png)![](README_res/bomb2.png)![](README_res/bomb3.png)![](README_res/bomb4.png)![](README_res/bomb5.png)
 
 #### 3.8 音效添加模块
 ①添加多媒体模块：在工程文件中添加多媒体模块multimedia。  
@@ -276,17 +276,17 @@ public:
 ```
 ②创建爱心对象数组。  
 ③实现爱心显示。利用在mainscene::paintEvent函数中利用QPainter将三颗爱心等距绘制在屏幕右上角位置。  
-![](README_res\heart.png)
+![](README_res/heart.png)
 
 #### 3.10 分数记录模块
 ①实现分数显示:在map.h中添加分数成员m_score并在构造函数中初始化为0，在main::paintEvent中利用QFont和QPainter绘制分数。  
 ②实现分数实时增加：绘制分数的同时自增++，实现分数不断增加。  
-![](README_res\score.png)
+![](README_res/score.png)
 
 #### 3.11 游戏逻辑模块
 ①碰撞后碰撞次数加一，爱心减少一颗。当在checkCollisions函数检测到飞机与陨石发生碰撞后令一颗爱心状态为隐藏，并使记录碰撞次数的变量自增一。  
 ②碰撞次数大于等于三利用QMessageBox弹出对话框提示结束游戏。  
-![](README_res\game_over.png)
+![](README_res/game_over.png)
 
 ### 四、系统的优点与不足
 #### 1.优点
@@ -331,10 +331,10 @@ https://www.bilibili.com/video/BV1xy4y1m794/.
 ⑯cstdlib：生成随机数  
 
 #### Ⅱ.系统组织结构
-![](README_res\MainScene.png)
+![](README_res/MainScene.png)
 
 #### Ⅲ.游戏运行画面
-![](README_res\play_game.gif)
+![](README_res/play_game.gif)
 
 
 
